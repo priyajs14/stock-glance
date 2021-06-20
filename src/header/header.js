@@ -7,9 +7,9 @@ function Header() {
 
   useEffect(() => {
     getUserAttributes().then((data) => {
-      setUserName(data.name);
+      setUserName(data?.name || null);
     });
-  }, []);
+  }, [isUserSignedIn()]);
 
   return (
     <>

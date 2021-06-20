@@ -8,7 +8,6 @@ import './container.css';
 function Container() {
   const { isUserSignedIn } = useEasybase();
 
-  console.log(isUserSignedIn());
   return (
     <div className="container">
       <Header />
