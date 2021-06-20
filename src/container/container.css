@@ -1,0 +1,29 @@
+.auth-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard {
+  padding: 0 50px;
+}
+
+button {
+  color: #8e8d8a;
+  background: transparent;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  padding: 10px 40px;
+  border: 2px solid #8e8d8a;
+}
+
+.login-btn {
+    margin-top: 30px;
+}
